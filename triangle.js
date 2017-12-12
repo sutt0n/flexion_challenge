@@ -6,6 +6,7 @@
  */
 
 class triangle {
+
 	/**
 	 * Constructor
 	 * 
@@ -20,6 +21,8 @@ class triangle {
 	};
 
 	/**
+	 * Returns a string representing the classificaton of a triangle.
+	 * 
 	 * @return {string} ("equilateral", "isosceles", "scalene", "not a triangle")
 	 */
 	getClassification() {
