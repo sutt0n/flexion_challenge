@@ -13,3 +13,6 @@ Example scenarios:
 ## Functional Requirements
 1. The user must be able to submit three numbers that represent the lengths of line segments.
 2. The program responds with the most specific triangle classification that applies to the three lengths, including: `scalene`, `equilateral`, `isosceles`, `not a triangle`.
+
+### How To Run
+- In the project directory, type `npm run start` and input the triangle sides.
