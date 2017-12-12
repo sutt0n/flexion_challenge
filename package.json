@@ -6,7 +6,6 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "node ./test/test.js",
 		"start": "node ./index.js"
 	}
 }
