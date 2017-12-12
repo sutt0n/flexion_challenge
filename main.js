@@ -33,7 +33,7 @@ class triangle {
 		if (a == b && b == c) {
 			return "equilateral";
 		} else if (a == b || b == c) {
-			return "isoceles";
+			return "isosceles";
 		} else {
 
 			// determine if "scalene" or "not a triangle"
@@ -46,7 +46,7 @@ class triangle {
 			let idx = sides.indexOf(max);
 			
 			// remove the maximum number
-			sides.slice(0, idx);
+			sides = sides.slice(0, idx);
 
 			let sum = sides.reduce(function (a, b) {
 				return a + b;
@@ -55,7 +55,5 @@ class triangle {
 			return (sum > max) ? "scalene" : "not a triangle";
 
 		}
-
-
 	}
 };
