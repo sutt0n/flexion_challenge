@@ -1,0 +1,12 @@
+{
+	"name": "flexion_challenge",
+	"version": "0.0.1",
+	"author": "Joseph Sutton <ebwebdev@gmail.com>",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "node ./test/test.js",
+		"start": "node ./index.js"
+	}
+}

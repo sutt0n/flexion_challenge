@@ -5,7 +5,9 @@
  * @github https://github.com/sutt0n/flexion_challenge
  */
 
-class triangle {
+'use strict';
+
+var triangle = class triangle {
 
 	/**
 	 * Constructor
@@ -51,12 +53,19 @@ class triangle {
 			// remove the maximum number
 			sides = sides.slice(0, idx);
 
+			console.log(sides);
+			console.log(max);
+
 			let sum = sides.reduce(function (a, b) {
 				return a + b;
 			});
+
+			console.log(sum);
 
 			return (sum > max) ? "scalene" : "not a triangle";
 
 		}
 	}
 };
+
+module.exports = triangle;
