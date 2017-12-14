@@ -13,7 +13,7 @@ rl.question("Enter all 3 sides of the triangle, separated by one (1) space: ", f
 	// split the sides
 	let sides = answer.split(" ");
 
-	// convert to int
+	// convert to float
 	sides = sides.map(function (side) {
 		return +(side);
 	});
