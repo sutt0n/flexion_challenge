@@ -15,7 +15,7 @@ rl.question("Enter all 3 sides of the triangle, separated by one (1) space: ", f
 
 	// convert to int
 	sides = sides.map(function (side) {
-		return parseInt(side, 10);
+		return +(side);
 	});
 
 	// get the triangle classification
